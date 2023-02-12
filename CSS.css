@@ -1,0 +1,161 @@
+body {
+    background-image: url("https://4.bp.blogspot.com/-15HfQ5aUVGc/ULJAC6Aq2lI/AAAAAAAAAVA/cUFZ8tZglcc/s1600/Le+Corbusier+perspectiva+Ville+Savoye-Arquitectohamuerto.jpg");
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 52em;
+    background-position:top;
+}
+
+b1 { 
+    font-family: 'Capture it', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(134, 168, 168); 
+    border-radius: 0.3em;
+    padding: 2px 7px 2px 7px ;
+    transition: background-color .5s linear;
+    border-style:outset;
+    }
+b1:hover {
+    background-color:rgb(161, 5, 5); ;
+    color: rgb(255, 255, 255);
+    
+}
+b { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    }
+.cat {
+    height:200px;
+    width: 200px;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-color: gray;
+    object-fit: contain;
+    border-radius: 100px;
+}
+.cat img {
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+}
+li {
+    font-family: Rockwell, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type : none;
+    transition: background-color .5s linear;
+}
+li:hover {
+    box-shadow: 0px 1px 2px rgb(161, 5, 5);
+    background-color:rgb(241, 241, 241)
+    }
+
+.datospersonales {
+    position: absolute;
+    box-sizing: content-box;
+    margin-top: 1em;
+    max-width: 35rem;
+    height:80rem;
+    box-sizing:inherit;
+    padding: 0rem 2rem 2rem 2rem;
+    border-radius: 1em;
+    max-width: 340px;
+  
+  }
+  .trayectoria {
+    position: absolute;
+    margin: 12em 0em 10em 25em;
+    padding: 5px 5px 5px 5px;
+    border-radius: 1em;
+    max-width: 1150px;
+    border-color: rgb(173, 2, 2);
+    color: rgb(0, 0, 0);
+    }
+n1 {
+    margin-left: 2em;
+    font-style: italic;
+}
+#Titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    font-size: 60px;
+    color: brown;
+    text-shadow: 2px 2px 5px grey;
+}
+
+#boton {
+position: relative;
+margin-top: 0.5em;
+background-color: none;
+font-size: 13px;
+font-style: oblique;
+font-family: Cambria; 
+border-style:inset ;
+border-radius: 1em;
+transition: background-color .5s linear;
+}
+#boton:hover {
+    background-color: rgb(184, 184, 184);
+
+}
+#boton1 {
+    position: relative;
+    margin-top: 0.5em;
+    background-color: none;
+    font-size: 13px;
+    font-style: oblique;
+    font-family: Cambria; 
+    border-style:inset ;
+    border-radius: 1em;
+    transition: background-color .5s linear;
+    }
+    #boton1:hover {
+        background-color:rgb(184, 184, 184);
+
+    }
+#botoningles {
+padding: 4px 4px 4px 4px;
+border-radius: 5px;
+border-color: rgb(0, 10, 7);
+position: relative;
+margin-right: 2em; 
+background-color: darkcyan; 
+color: cornsilk;
+font-family: Georgia, Times, 'Times New Roman', serif;  
+box-shadow: 2px 2px 2px #4b4b4b;
+transition: background-color .5s linear;
+}
+#botoningles:hover {
+background-color: rgb(159, 192, 253);
+color: black;
+
+
+}#botoncastellano {
+padding: 4px 4px 4px 4px;
+border-radius: 5px;
+border-color: rgb(0, 10, 7);
+position: relative;
+margin-right: 2em; 
+background-color: darkcyan; 
+color: cornsilk;
+font-family: Georgia, Times, 'Times New Roman', serif;  
+box-shadow: 2px 2px 2px #4b4b4b;
+transition: background-color .5s linear;
+}
+#botoncastellano:hover {
+background-color: rgb(159, 192, 253);
+color: black;
+
+}
+.boton1 {
+    position: relative;
+    margin-top: 0.5em;
+    background-color: none;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: Cambria; 
+    border-style:inset ;
+    border-radius: 1em;
+    transition: background-color .5s linear;
+    }
+.boton1:hover {
+    background-color: rgb(214, 8, 8);
+}
