@@ -1,4 +1,4 @@
-
+/* FUNCION VERSION INGLES*/
 
 function versioningles(){
     document.getElementById("datospersonalesarg").style.display ="none";
@@ -18,9 +18,14 @@ function versioningles(){
     document.getElementById("complementary").style.display= "block";
 }
 
+/* CAPTADOR INGLES CLICK*/
+
 document.getElementById("botoningles").onclick = function() {
         versioningles()
 }
+
+/* FUNCION VERSION CASTELLANO*/
+
 function versioncastellano(){
     document.getElementById("datospersonalesarg").style.display = "block";
     document.getElementById("datospersonalesing").style.display ="none";
@@ -38,41 +43,49 @@ function versioncastellano(){
     document.getElementById("mention").style.display= "none";
 }
 
+/* CAPTADOR CASTELLANO CLICK*/
+
 document.getElementById("botoncastellano").onclick = function(){
     versioncastellano()
 }
 
-
-
-/* INFORMACION ADICIONAL CASTELLANO*/
+/* FUNCION BOTON - ALCANCE DEL PUESTO */
 
 function cambiartexto(){
     document.getElementById("Complementario").style.color = "red";
     }
-    function mostrartexto(){
+function mostrartexto(){
         document.getElementById("Complementario").style.display = "block";
     }
-    function ocultarboton(){
+function ocultarboton(){
         document.getElementById("boton").style.display = "none";
     }
-    document.getElementById("boton").onclick = function(){
+
+
+/* CAPTADOR BOTON - ALCANCE DEL PUESTO */
+
+document.getElementById("boton").onclick = function(){
         cambiartexto()
         mostrartexto()
         ocultarboton()
     }
+ 
     
-    /* INFORMACION ADICIONAL INGLES*/
+/* FUNCION BOTON - ALCANCE DEL PUESTO EN INGLES */
     
-    function cambiartexto1(){
+function cambiartexto1(){
         document.getElementById("Complementary").style.color = "red";
     }
-    function mostrartexto1(){
+function mostrartexto1(){
         document.getElementById("Complementary").style.display = "block";
     }
-    function ocultarboton1(){
+function ocultarboton1(){
         document.getElementById("boton1").style.display = "none";
     }
-    document.getElementById("boton1").onclick = function(){
+
+    /* CAPTADOR BOTON - ALCANCE DEL PUESTO EN CASTELLANO*/
+
+document.getElementById("boton1").onclick = function(){
         cambiartexto1()
         mostrartexto1()
         ocultarboton1()
